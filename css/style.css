@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Navbar Styles  */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.83);
+}
+
+.navIMG {
+  width: 5rem;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  padding: 0 0.75rem 0 0.75rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #eee 2.4px solid;
+  transition: all 0.5s;
+}
+
+.nav-item {
+  transition: all 0.5s;
+}
+
+/* FOOTER */
+#main-footer {
+  /* background: #000; */
+  background-color: rgba(0, 0, 0, 0.83);
+  color: #fff;
+}
+
+#main-footer p {
+  margin: 0;
+}
+
+/* PAGE 1 - Carousel Styles */
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  /* background: url("https://images.unsplash.com/photo-1470110385011-8c66cb46f0e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"); */
+  background: url("https://images.unsplash.com/photo-1519155031214-e8d583928bf2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-size: center;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  /* background-attachment: fixed; */
+
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-image-2 {
+  background: url("https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url("https://images.unsplash.com/photo-1473831818960-c89731aabc3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80");
+  background-size: cover;
+}
+
+/* PAGE 1 - Sign Up */
+#newsletter {
+  border-top: rgba(68, 68, 68, 0.9) 0.5px solid;
+}
+
+/* Home Heading Styles */
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/lights.jpg");
+  background-attachment: fixed;
+  background-color: #444;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.dark-overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.dark-overlay2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Video Player styles */
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/media.jpg");
+  background-attachment: fixed;
+  background-color: #444;
+  background-repeat: no-repeat;
+  background-position: 0 -300px;
+  text-align: center;
+  color: #fff;
+}
+
+#video-play a {
+  color: #fff;
+}
+
+/* Test Styles */
+.h100 {
+  height: 100%;
+  width: 100%;
+}
+
+/* ABOUT PAGE STYLES */
+#page-header {
+  height: 200px;
+  background: url("../img/lights.jpg");
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  /* padding-top: 50px; */
+}
+
+.about-img {
+  margin-top: -40px;
+}
+
+/* Testimonials */
+#testimonials {
+  border-top: rgba(68, 68, 68, 0.9) 0.5px solid;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: rgba(0, 0, 0, 0.83);
+}
+
+/* SERVICES PAGE STYLES */
+#faq {
+  border-top: rgba(68, 68, 68, 0.9) 0.5px solid;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: white;
+  text-decoration: none;
+}
+
+#faq .card-header {
+  background: #444;
+  color: #eee;
+}
+
+#faq .card-body {
+  background: #eee;
+  color: #444;
+  border-left: rgba(68, 68, 68, 0.9) 0.5px solid;
+  border-right: rgba(68, 68, 68, 0.9) 0.5px solid;
+}
+
+/* Employee Section */
+#employee {
+  border-top: rgba(68, 68, 68, 0.9) 0.5px solid;
+}
